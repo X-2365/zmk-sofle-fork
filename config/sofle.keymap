@@ -57,11 +57,11 @@
 
         layer_1 {
             bindings = <
-&trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans    &trans    &trans  &kp MINUS         &kp EQUAL          &trans
-&trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans    &trans    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT         &trans             &trans
-&trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans    &trans    &trans  &trans            &trans             &trans
-&kp C_MUTE  &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans    &trans    &trans  &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans    &trans    &trans  &kp MINUS         &kp EQUAL          &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans    &trans    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT         &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans    &trans    &trans  &trans            &trans             &trans
+&none   &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans    &trans    &trans  &trans            &trans
             >;
 
             display-name = "LAYER 1";
@@ -74,7 +74,7 @@
 &trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans  &trans  &trans  &trans  &trans
+&none      &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
